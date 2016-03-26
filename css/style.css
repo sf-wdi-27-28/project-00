@@ -1,0 +1,30 @@
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: skyblue; /* Sanity Check! */
+}
+
+h1 {
+  text-align: center;
+}
+
+#field{
+  background-color: white;
+  hieght: 500px;
+  text-align: center;
+}
+
+td{
+  width: 5px;
+  height: 5px;
+  /*border: solid 1px white;*/
+  background-color: blue;
+}
+
+.player{
+  background-color: red;
+}
+
+.wall{
+  background-color: gray;
+}
