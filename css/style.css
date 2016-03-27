@@ -12,19 +12,28 @@ h1 {
   background-color: white;
   hieght: 500px;
   text-align: center;
+  margin: 0 auto;
 }
 
 td{
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   /*border: solid 1px white;*/
   background-color: blue;
 }
 
-.player{
+.player1{
   background-color: red;
+}
+
+.player2{
+  background-color: green;
 }
 
 .wall{
   background-color: gray;
+}
+
+.sprite{
+  background-color: white;
 }
