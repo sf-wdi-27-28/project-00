@@ -1,0 +1,12 @@
+#race {
+    background: url('img/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+​
+#d, #c {
+    display: block;
+    position: absolute;
+}
