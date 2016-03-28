@@ -13,12 +13,12 @@ $(document).ready(function(){
 
   var player1Val = {
     "name": "Player 1",
-    "color": "blue",
+    "color": "#ff0000",
   };
 
   var player2Val = {
     "name": "Player 2",
-    "color": "yellow",
+    "color": "#00ff00",
   };
   var player1 = null;
   var player2 = null;
@@ -76,12 +76,13 @@ $(document).ready(function(){
     player2.alive = true;
     player2.returnToOrigin();
     player2.placeOnBoard(fieldArr);
+    $("#dialogue").text("");
   });
 
 
 
 
-  $(window).on("keydown",function(event){
+  $(window).on("keyup",function(event){
     if(gameActive === true){
       totalClickCount++;
       if(totalClickCount % 100 === 0){
@@ -356,13 +357,13 @@ var mazeArr = [{'row':{'start':0,'finish':5},
 {'row':{'start':30,'finish':105},
 'col':{'start': 115, 'finish': 120}},
 {'row':{'start':25,'finish':30},
-'col':{'start': 115, 'finish': 160}},
+'col':{'start': 130, 'finish': 160}},
 {'row':{'start':50,'finish':55},
 'col':{'start': 140, 'finish': 185}},
 {'row':{'start':80,'finish':85},
 'col':{'start': 140, 'finish': 185}},
 {'row':{'start':105,'finish':110},
-'col':{'start': 115, 'finish': 160}},
+'col':{'start': 130, 'finish': 160}},
 {'row':{'start':5,'finish':50},
 'col':{'start': 180, 'finish': 185}},
 {'row':{'start':85,'finish':130},
