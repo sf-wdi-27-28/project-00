@@ -37,7 +37,7 @@ h1 {
     font-weight: bolder;
 }
 #swimTrackContainer {
-    background-image: url("/Users/ayushjha/WDI/Project0_BoardGame/images/Underwater_wallpaper.jpg");
+    background-image: url("/Users/ayushjha/WDI/project-00/images/Underwater_wallpaper.jpg");
     background-repeat: no-repeat;
     height: 534px;
     border: 10px solid grey;
