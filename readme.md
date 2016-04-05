@@ -23,4 +23,4 @@
 - Display "Swim Again!" button to restart game
 
 ##### **GitHub clone link**
-- https://github.com/sf-wdi-27-28/project-00
+- https://github.com/jha-ayush/project-00

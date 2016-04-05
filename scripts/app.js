@@ -23,7 +23,6 @@ $(document).on("ready", function() {
 
         var containerWidth = $("#swimTrackContainer").width() - 65;
         if (newPositionNumber >= containerWidth) {
-
             $swimmer.css("left", containerWidth + "px");
             var winMessage = $swimmer.attr("data-win");
             alert(winMessage);
