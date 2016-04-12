@@ -1,0 +1,48 @@
+
+/*Add attributes for the following sections*/
+h1 {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    font: helvetica;
+    font-weight: bold;
+    color: black;
+    background-color: skyblue;
+}
+/*rotate image to face right*/
+#nemo,
+#dory {
+    transform: scaleX(-1);
+    position: absolute;
+}
+#nemo {
+    left: 0px;
+    top: 130px;
+}
+#dory {
+    left: 0px;
+    top: 210px;
+}
+#reset {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#track {
+    font-size: 20px;
+    font-style: bold;
+    font: arial;
+    position: relative;
+    font-weight: bolder;
+}
+#swimTrackContainer {
+    background-image: url("/Users/ayushjha/WDI/project-00/images/Underwater_wallpaper.jpg");
+    background-repeat: no-repeat;
+    height: 534px;
+    border: 10px solid grey;
+    position: relative;
+}
+#swimTrack {
+    margin-top: 170px;
+}
